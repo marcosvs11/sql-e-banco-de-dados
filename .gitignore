@@ -1,0 +1,43 @@
+### banco de dados ###
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
+*.db-shm
+*.db-wal
+
+### Linux ###
+*~
+
+# arquivos temporários que podem ser criados se um processo ainda tiver uma alça aberta de um arquivo excluído
+.fuse_oculto*
+
+# Preferências de diretório do KDE
+.directory
+
+# Linux pasta de lixo que pode aparecer em qualquer partição ou disco
+. Lixo-*
+
+# .nfs arquivos são criados quando um arquivo aberto é removido, mas ainda está sendo acessado
+.nfs*
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tarefas.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# História Local para Visual Studio Code
+.história/
+
+# Construído Visual Studio Code Extensões
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore toda a história local dos arquivos
+.história
+.ionide
